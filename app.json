@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "engajamento-estudante",
+    "slug": "engajamento-estudante",
+    "version": "1.2.1",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1D1B1E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.engajamento.appdisnelaluno",
+      "buildNumber": "6",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "usesCleartextTraffic": false,
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.engajamento.engajamentoestudante",
+      "versionCode": 7
+    },
+    "web": { "favicon": "./src/assets/favicon.png" },
+    "plugins": [
+      [
+        "expo-build-properties",
+        { "android": { "newArchEnabled": false }, "ios": { "newArchEnabled": false } }
+      ]
+    ],
+    "extra": {
+      "eas": { "projectId": "e0da705c-431b-4930-b0b1-7da35e839bd2" }
+    },
+    "owner": "engajamento",
+    "sdkVersion": "53.0.0"
+  }
+}

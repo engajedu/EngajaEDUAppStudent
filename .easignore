@@ -1,0 +1,10 @@
+# Ignora tudo
+**
+
+# Mas inclui tudo novamente
+!**
+
+# (Opcional, garante que arquivos essenciais não sejam ignorados)
+!package.json
+!eas.json
+!app.json

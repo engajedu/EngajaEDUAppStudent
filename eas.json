@@ -1,0 +1,22 @@
+{
+  "cli": { "version": ">= 7.1.1", "requireCommit": true },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.engajedu.com.br",
+        "EXPO_PUBLIC_WEBSOCKET_URL": "wss://api.engajedu.com.br"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.engajedu.com.br",
+        "EXPO_PUBLIC_WEBSOCKET_URL": "wss://api.engajedu.com.br"
+      },
+      "android": { "buildType": "apk" },
+      "ios": { "simulator": false, "distribution": "store" }
+    }
+  },
+  "submit": { "production": {} }
+}
