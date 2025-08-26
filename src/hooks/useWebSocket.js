@@ -7,7 +7,7 @@ const RAW_API =
   process.env.EXPO_PUBLIC_API_URL ||
   Constants.expoConfig?.extra?.EXPO_PUBLIC_API_URL ||
   Constants.manifest?.extra?.EXPO_PUBLIC_API_URL ||
-  'https://api.engajedu.com.br';
+  'https://engajedu.com.br/api';
 
 // Se tiver EXPO_PUBLIC_WEBSOCKET_URL usamos ela; senão, derivamos do API_URL
 // https -> wss  |  http -> ws

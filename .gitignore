@@ -1,0 +1,61 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+/android
+/ios
+/dist
+/build
+
+# Expo / React Native
+.expo/
+.expo-shared/
+web-build/
+.expo-dev/
+
+# Metro bundler cache
+.expo/
+.expo-shared/
+.expo-dev/
+.expo-settings.json
+.expo-env.local
+
+# Configurações locais
+*.local
+.env
+.env.local
+.env.*.local
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Fastlane (automação iOS/Android)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Arquivos de build temporários
+*.apk
+*.aab
+*.ipa
+
+# Logs do sistema
+*.log
+
+# Arquivos de cache
+*.pid
+*.seed
+*.tgz
+.cache/
+.tmp/
