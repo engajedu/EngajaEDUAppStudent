@@ -7,7 +7,7 @@ const envUrl =
   process.env.EXPO_PUBLIC_API_URL ||
   Constants.expoConfig?.extra?.EXPO_PUBLIC_API_URL ||
   Constants.manifest?.extra?.EXPO_PUBLIC_API_URL ||
-  'https://api.engajedu.com.br';
+  'https://engajedu.com.br/api';
 
 // remove barra final, se houver (evita // nas URLs)
 const API_URL = envUrl.replace(/\/$/, '');

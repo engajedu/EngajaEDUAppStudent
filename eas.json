@@ -5,14 +5,14 @@
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://api.engajedu.com.br",
-        "EXPO_PUBLIC_WEBSOCKET_URL": "wss://api.engajedu.com.br"
+        "EXPO_PUBLIC_API_URL": "https://engajedu.com.br/api",
+        "EXPO_PUBLIC_WEBSOCKET_URL": "wss://engajedu.com.br/api"
       }
     },
     "production": {
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://api.engajedu.com.br",
-        "EXPO_PUBLIC_WEBSOCKET_URL": "wss://api.engajedu.com.br"
+        "EXPO_PUBLIC_API_URL": "https://engajedu.com.br/api",
+        "EXPO_PUBLIC_WEBSOCKET_URL": "wss://engajedu.com.br/api"
       },
       "android": { "buildType": "apk" },
       "ios": { "simulator": false, "distribution": "store" }
